@@ -29,18 +29,18 @@ driver license. Then, concatenate them and assign the
 result of the operation into a variable named license.
 */
 
-let name = "Bart Simpsons"
-let address = "742 Evergreen Terr."
-let city = "Springfield"
-let country = "USA"
-let birthday = "02-11-70"
-const code = "B47U98RE243"
+let name_license = "Bart Simpsons"
+let address_license = "742 Evergreen Terr."
+let city_license = "Springfield"
+let country_license = "USA"
+let birthday_license = "02-11-70"
+const code_license = "B47U98RE243"
 
-license = "Code: " + code + '\n' +
-          "Person: " + name + '\n' +
-          "Address: " + address + '\n' +
-          city + ", " + country + '\n' + 
-          "Birthday: " + birthday
+license = "Code: " + code_license + '\n' +
+          "Person: " + name_license + '\n' +
+          "Address: " + address_license + '\n' +
+          city_license + ", " + country_license + '\n' + 
+          "Birthday: " + birthday_license
 
 console.log(license)
 
@@ -82,7 +82,7 @@ console.log("Entered discount: "+discount1+"%")
 
 let final_price1 = price1 * (100 - discount1)/100
 
-alert("The final price is $"+final_price)
+alert("The final price is $"+final_price1)
 
 let price2 = parseInt(prompt("Please enter a price"))
 console.log("Entered price: $"+price2)
