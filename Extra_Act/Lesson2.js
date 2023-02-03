@@ -25,15 +25,9 @@ Otherwise, the output will be "Error".
 
 let key = prompt("Press a key")
 
-while (key != null && key != "E"){
-    if (key == "y" || key =="Y"){
-        alert("Correct")
-    }else{
-        alert("Error")
-    }
-    key = prompt("Press a key")
-}
-if (key == "E"){
+if (key == "y" || key =="Y"){
+    alert("Correct")
+}else{
     alert("Error")
 }
 
